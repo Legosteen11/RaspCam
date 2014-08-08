@@ -21,7 +21,7 @@ We also need the program 'fswebcam', you can install it using
 Now we can download the script from GitHub, and give ourself permission to run it.
 
     wget https://raw.githubusercontent.com/Legosteen11/RaspCam/gh-pages/raspcam.sh
-    chmod +x raspcam.sh
+    sudo chmod +x raspcam.sh
 
 Now make sure that you have a Webcam in the usb slot ON your raspberry pi, NOT on a powered usb hub. You can start raspcam using:
 
