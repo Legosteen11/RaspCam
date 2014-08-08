@@ -13,4 +13,4 @@ sudo chmod +x raspcam.sh
 mv raspcam.sh /usr/bin/raspcam
 mv raspcaminstaller.sh /usr/bin/raspcamupdate
 sudo chown -R $USER /var/www
-echo "Done installing. You can start RaspCam by typing 'raspcam' And update by type 'raspcamupdate'"
+echo "Done installing. You can start RaspCam by typing 'raspcam' And update by typing 'raspcamupdate'"
