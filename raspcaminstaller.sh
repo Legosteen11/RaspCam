@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "Removing old raspcam"
+rm /usr/bin/raspcamupdate
 rm /usr/bin/raspcam
 rm raspcam.sh
 echo "Installing webserver"
