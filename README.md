@@ -7,7 +7,17 @@ RaspCam is a bash script for the Raspberry Pi, you can also use this on other De
 What you need:
 * A raspberry pi with raspbian OS and internet connection
 
-Installing
+Automatic install
+-------
+Raspcam has an automatic installer, to use it type:
+
+    wget https://raw.githubusercontent.com/Legosteen11/RaspCam/gh-pages/raspcaminstaller.sh
+    sudo chmod +x raspcaminstaller.sh
+    sudo ./raspcaminstaller.sh
+
+
+
+Manual Install
 -------
 First we need to make a webserver from our Pi, we do this by installing Apache2.
 
