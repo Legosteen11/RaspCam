@@ -18,13 +18,9 @@ We also need the program 'fswebcam', you can install it using
 
     sudo apt-get install fswebcam
 
-Then we need to install Git
-
-    sudo apt-get install git-core
-
 Now we can download the script from GitHub, and give ourself permission to run it.
 
-    git clone git://raw.githubusercontent.com/Legosteen11/RaspCam/gh-pages/raspcam.sh
+    wget https://raw.githubusercontent.com/Legosteen11/RaspCam/gh-pages/raspcam.sh
     chmod +x raspcam.sh
 
 Now make sure that you have a Webcam in the usb slot ON your raspberry pi, NOT on a powered usb hub. You can start raspcam using:
@@ -45,5 +41,6 @@ To configure raspcam type:
 
 The only real thing you can configure is how much time there is between a picture uploaded on the internet, the number after 'Webcamscript'. The default is 5 seconds.
 
-
-Thank you for reading :)
+Thanks!
+------
+Thanks for reading :)
