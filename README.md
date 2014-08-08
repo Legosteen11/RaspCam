@@ -22,6 +22,7 @@ Now we can download the script from GitHub, and give ourself permission to run i
 
     wget https://raw.githubusercontent.com/Legosteen11/RaspCam/gh-pages/raspcam.sh
     sudo chmod +x raspcam.sh
+    sudo chown -R $USER /var/www
 
 Now make sure that you have a Webcam in the usb slot ON your raspberry pi, NOT on a powered usb hub. You can start raspcam using:
 
@@ -39,7 +40,8 @@ To configure raspcam type:
 
     sudo nano raspcam.sh
 
-The only real thing you can configure is how much time there is between a picture uploaded on the internet, the number after 'Webcamscript'. The default is 5 seconds.
+The only real thing you can configure is how much time there is between a picture uploaded on the internet, the number after 'Webcamscript'. The default is 5 seconds. 
+If you are using ubuntu you will need to change the destination from /var/www/camera.jpg and /var/www/$DATE.jpg to /var/www/html/camera.jpg /var/www/html/$DATE.jpg
 
 Thanks!
 ------
