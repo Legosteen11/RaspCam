@@ -1,4 +1,7 @@
 #!/bin/bash
+echo "Removing old raspcam"
+rm /usr/bin/raspcam
+rm raspcam.sh
 echo "Installing webserver"
 sudo apt-get install apache2 php5 libapache2-mod-php5
 sudo service apache2 restart
