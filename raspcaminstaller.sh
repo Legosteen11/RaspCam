@@ -7,5 +7,6 @@ sudo apt-get install fswebcam
 wget https://raw.githubusercontent.com/Legosteen11/RaspCam/gh-pages/raspcam.sh
 sudo chmod +x raspcam.sh
 mv raspcam.sh /usr/bin/raspcam
+mv raspcaminstaller.sh /usr/bin/raspcamupdate
 sudo chown -R $USER /var/www
 echo "Done installing. You can start RaspCam by typing 'raspcam'"
