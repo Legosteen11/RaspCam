@@ -6,7 +6,7 @@ do
 
 sleep 5
 echo "Taking picture..."
-DATE=$(date +"%Y-%m-%d_%H%M")
+DATE=$(date +"%Y-%m-%d_%H:%M:%s")
 
 fswebcam /var/www/$DATE.jpg
 fswebcam /var/www/camera.jpg
