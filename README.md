@@ -40,9 +40,16 @@ Now make sure that you have a Webcam in the usb slot ON your raspberry pi, NOT o
 
 To stop the script use Ctrl+C, the script will take a picture every minute.
 You can view your pictures at IP/camera.jpg
-Or by typing IP/year-month-day-hourminute.jpg
+Or by typing IP/year-month-day-hour:minute:seconds.jpg
 For example: 192.168.0.110/camera.jpg
-192.168.0.110/2014-08-08-1244
+192.168.0.110/2014-08-08-124412.jpg
+
+Result
+-------
+When you've installed RaspCam and the other software, you'll see something like this:
+![](https://snapr.pw/i/091d00c6d0.png "Command line")
+![A screenshot of chrome with the page open](https://snapr.pw/i/af784d0885.png "In your browser")
+![Just the image itself](https://snapr.pw/i/b56c26c9f0.png "The image")
 
 Configuring:
 -------
