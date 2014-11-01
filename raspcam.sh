@@ -1,7 +1,7 @@
 #!/bin/bash
 # Credits to taronyu for new installer!
 # INSTALL THIS SCRIPT USING:
-# wget https://raw.githubusercontent.com/Taronyuu/RaspCam/gh-pages/raspcam.sh && sudo chmod +x raspcam.sh && mv raspcam.sh /usr/bin/raspcam
+# wget https://raw.githubusercontent.com/Legosteen11/RaspCam/gh-pages/raspcam.sh && sudo chmod +x raspcam.sh && mv raspcam.sh /usr/bin/raspcam
 #
 # To update run:
 # raspcam install
@@ -17,7 +17,7 @@ if [ $1 == install ]; then
 	sudo rm raspcam.sh
 	wget https://raw.githubusercontent.com/Legosteen11/RaspCam/gh-pages/raspcam.sh
 	sudo chmod +x raspcam.sh
-	mv raspcam.sh /usr/bin/raspcam
+	sudo mv raspcam.sh /usr/bin/raspcam
 	echo "Done installing. You can start RaspCam by typing 'sudo raspcam' And update by typing 'sudo raspcam install'"
 else
 	if [ -a /usr/bin/raspcam ]; then
@@ -47,7 +47,7 @@ else
 		sudo rm raspcam.sh
 		wget https://raw.githubusercontent.com/Legosteen11/RaspCam/gh-pages/raspcam.sh
 		sudo chmod +x raspcam.sh
-		mv raspcam.sh /usr/bin/raspcam
+		sudo mv raspcam.sh /usr/bin/raspcam
 		echo "Done installing. You can start RaspCam by typing 'raspcam' And update by typing 'sudo raspcam install'"
 	fi
 fi
