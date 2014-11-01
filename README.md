@@ -18,6 +18,7 @@ Raspcam has an automatic installer, to use it type:
     sudo ./raspcaminstaller.sh
     
 To install Taronyu's version use:
+
     wget https://raw.githubusercontent.com/Taronyuu/RaspCam/gh-pages/raspcam.sh && sudo chmod +x raspcam.sh && mv raspcam.sh /usr/bin/raspcam
 
 
