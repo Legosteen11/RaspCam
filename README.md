@@ -1,5 +1,7 @@
 RaspCam
 =======
+Thanks to Taronyu for making a new, better version of raspcam. http://goo.gl/XNHkFS
+-------
 Check out my website: <a href="http://wouterdoeland.nl">wouterdoeland.nl</a>
 
 RaspCam is a bash script for the Raspberry Pi, you can also use this on other Debian-based linux distro's. Raspcam works with a USB Webcamera.
