@@ -16,6 +16,9 @@ Raspcam has an automatic installer, to use it type:
     wget https://raw.githubusercontent.com/Legosteen11/RaspCam/gh-pages/raspcaminstaller.sh
     sudo chmod +x raspcaminstaller.sh
     sudo ./raspcaminstaller.sh
+    
+To install Taronyu's version use:
+    wget https://raw.githubusercontent.com/Taronyuu/RaspCam/gh-pages/raspcam.sh && sudo chmod +x raspcam.sh && mv raspcam.sh /usr/bin/raspcam
 
 
 
