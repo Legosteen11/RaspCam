@@ -6,7 +6,7 @@
 # To update run:
 # raspcam install
 
-if [ $1 == install ]; then
+if [ $1 == "install" ]; then
 	echo "Installing webserver"
 	sudo apt-get install apache2 php5 libapache2-mod-php5
 	sudo service apache2 restart
