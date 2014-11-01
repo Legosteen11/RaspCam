@@ -29,8 +29,8 @@ else
 		echo "Taking picture..."
 		DATE=$(date +"%Y-%m-%d_%H:%M:%s")
 
-		fswebcam /var/www/$DATE.jpg
-		fswebcam /var/www/camera.jpg
+		fswebcam save /var/www/$DATE.jpg
+		fswebcam save /var/www/camera.jpg
 		echo "Picture named to: "
 		echo $DATE
 		echo "Press Ctrl + C, to stop script."
